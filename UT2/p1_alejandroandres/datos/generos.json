@@ -1,0 +1,22 @@
+[
+  {
+    "_id": 1,
+    "nombre": "Ciencia ficción",
+    "descripcion": "Peliculas y series de tecnología futurista y espacio."
+  },
+  {
+    "_id": 2,
+    "nombre": "Drama",
+    "descripcion": "Historias de alto impacto emocional."
+  },
+  {
+    "_id": 3,
+    "nombre": "Comedia",
+    "descripcion": "Contenido enfocado en el entretenimiento y humor."
+  },
+  {
+    "_id": 4,
+    "nombre": "Acción",
+    "descripcion": "Secuencias de combate, persecuciones y aventura."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "serieId": 1,
+    "temporada": 1,
+    "numero": 1,
+    "titulo": "La Llegada",
+    "duracion": 52
+  },
+  {
+    "_id": 2,
+    "serieId": 1,
+    "temporada": 1,
+    "numero": 2,
+    "titulo": "La Señal",
+    "duracion": 48
+  },
+  {
+    "_id": 3,
+    "serieId": 1,
+    "temporada": 1,
+    "numero": 3,
+    "titulo": "El Enigma",
+    "duracion": 55
+  }
+]

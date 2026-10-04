@@ -1,0 +1,22 @@
+[
+  {
+    "_id": 1,
+    "titulo": "Ciudad Oscura",
+    "descripcion": "Un detective investiga casos en una ciudad futurista.",
+    "anioInicio": 2021,
+    "anioFin": null,
+    "temporadas_totales": 4,
+    "generos": ["Ciencia ficción", "Drama"],
+    "activo": true
+  },
+  {
+    "_id": 2,
+    "titulo": "Vecinos del Caos",
+    "descripcion": "Historias cómicas de un grupo de vecinos.",
+    "anioInicio": 2022,
+    "anioFin": 2023,
+    "temporadas_totales": 2,
+    "generos": ["Comedia"],
+    "activo": true
+  }
+]

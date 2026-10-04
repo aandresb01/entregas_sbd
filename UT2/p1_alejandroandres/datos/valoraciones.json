@@ -1,0 +1,47 @@
+[
+  {
+    "_id": 1,
+    "usuarioId": 1,
+    "contenidoId": 1,
+    "tipoContenido": "pelicula",
+    "puntuacion": 5,
+    "comentario": "Sublime dirección y efectos visuales.",
+    "fecha": { "$date": "2024-02-01T19:45:00Z" }
+  },
+  {
+    "_id": 2,
+    "usuarioId": 2,
+    "contenidoId": 1,
+    "tipoContenido": "pelicula",
+    "puntuacion": 4,
+    "comentario": "Muy recomendable.",
+    "fecha": { "$date": "2024-02-02T10:15:00Z" }
+  },
+  {
+    "_id": 3,
+    "usuarioId": 1,
+    "contenidoId": 1,
+    "tipoContenido": "serie",
+    "puntuacion": 4,
+    "comentario": "Gran ritmo de guion.",
+    "fecha": { "$date": "2024-02-03T14:20:00Z" }
+  },
+  {
+    "_id": 4,
+    "usuarioId": 2,
+    "contenidoId": 1,
+    "tipoContenido": "serie",
+    "puntuacion": 2,
+    "comentario": "Me decepcionó el final.",
+    "fecha": { "$date": "2024-02-04T16:00:00Z" }
+  },
+  {
+    "_id": 5,
+    "usuarioId": 3,
+    "contenidoId": 1,
+    "tipoContenido": "episodio",
+    "puntuacion": 5,
+    "comentario": "Episodio piloto magistral.",
+    "fecha": { "$date": "2024-02-05T21:30:00Z" }
+  }
+]

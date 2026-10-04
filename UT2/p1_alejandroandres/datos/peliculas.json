@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 1,
+    "titulo": "Horizonte Cero",
+    "descripcion": "Una tripulación viaja a un planeta desconocido en busca de recursos.",
+    "anio": 2024,
+    "duracion": 135,
+    "generos": ["Ciencia ficción", "Acción"],
+    "puntuacion_media": 4.8,
+    "num_valoraciones": 15,
+    "activo": true,
+    "fecha_alta": { "$date": "2024-01-15T10:00:00Z" }
+  },
+  {
+    "_id": 2,
+    "titulo": "El Último Café",
+    "descripcion": "Dos desconocidos se encuentran cada día en una cafetería.",
+    "anio": 2023,
+    "duracion": 105,
+    "generos": ["Drama", "Romance"],
+    "puntuacion_media": 3.5,
+    "num_valoraciones": 4,
+    "activo": true,
+    "fecha_alta": { "$date": "2023-05-10T12:00:00Z" }
+  },
+  {
+    "_id": 3,
+    "titulo": "Matrix Inception",
+    "descripcion": "Aventura futurista en un mundo cibernético.",
+    "anio": 2022,
+    "duracion": 148,
+    "generos": ["Ciencia ficción", "Thriller"],
+    "puntuacion_media": 4.9,
+    "num_valoraciones": 120,
+    "activo": true,
+    "fecha_alta": { "$date": "2022-08-20T16:30:00Z" }
+  }
+]
