@@ -1,5 +1,7 @@
 # Copias de Seguridad y Seguridad
 
+## Capturas en [/docs/evidencias](../docs/evidencias/evidencias.md)
+
 ## 1. Copia de seguridad y restauración
 
 ### Copia de seguridad (`mongodump`)

@@ -1,5 +1,7 @@
 # 01 - Creación de Colecciones con Validación ($jsonSchema)
 
+## Capturas en [/docs/evidencias](../docs/evidencias/evidencias.md)
+
 ```javascript
 use multimedia;
 

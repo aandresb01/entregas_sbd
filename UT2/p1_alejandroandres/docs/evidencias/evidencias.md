@@ -30,23 +30,23 @@ Evidencia: Datos nuevos insertados en Valoraciones
 
 ## 03 - Creación de Índices e Inspección del Plan
 
-Evidencia: Agregando todos los índices
-![Evidencia: Agregando todos los índices](ev_indices_1.png)
-
 Evidencia: Resultado índice 1
-![Evidencia: Resultado índice 1](ev_indices_2.png)
+![Evidencia: Resultado índice 1](ev_indices_1.png)
 
 Evidencia: Resultado índice 2
-![Evidencia: Resultado índice 2](ev_indices_3.png)
+![Evidencia: Resultado índice 2](ev_indices_2.png)
 
 Evidencia: Resultado índice 3
-![Evidencia: Resultado índice 3](ev_indices_4.png)
+![Evidencia: Resultado índice 3](ev_indices_3.png)
 
 Evidencia: Resultado índice 4
-![Evidencia: Resultado índice 4](ev_indices_5.png)
+![Evidencia: Resultado índice 4](ev_indices_3.png)
+
+Evidencia: Resultado índice 5
+![Evidencia: Resultado índice 5](ev_indices_4.png)
 
 Evidencia: Comprobacion de índices usando consulta
-![Evidencia: Comprobacion de índices usando consulta](ev_indices_6.png)
+![Evidencia: Comprobacion de índices usando consulta](ev_indices_5.png)
 
 ## 04 - Consultas de Negocio, CRUD y Agregación Compleja
 

@@ -1,5 +1,7 @@
 # 03 - Creación de Índices e Inspección del Plan (explain)
 
+## Capturas en [/docs/evidencias](../docs/evidencias/evidencias.md)
+
 ## Creación de Índices Justificados
 
 - **Índice 1 (Compuesto):** `{ activo: 1, puntuacion_media: -1, titulo: 1 }` --> Acelera ranking Top 10 películas.
