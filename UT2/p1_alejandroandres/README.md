@@ -56,7 +56,7 @@ Para reproducir la práctica y ejecutar las consultas paso a paso:
 
 1. **Creación de colecciones con validación:** Ejecuta el script [`scripts/01_colecciones_validacion.md`](./scripts/01_colecciones_validacion.md) para crear la base de datos `multimedia` y aplicar las reglas `$jsonSchema`. Puedes ver las evidencias visuales en [`docs/evidencias/evidencias.md`](./docs/evidencias/evidencias.md).
 2. **Carga de datos de prueba:** Ejecuta la inserción con el script [`scripts/02_datos.md`](./scripts/02_datos.md) o importa los ficheros JSON situados en [`datos/`](./datos/).
-3. **Creación de índices y explain:** Ejecuta el script [`scripts/03_indices.md`](./scripts/03_indices.md) para crear los 4 índices y verificar el plan de ejecución con `explain("executionStats")`.
+3. **Creación de índices y plan de ejecución:** Ejecuta el script [`scripts/03_indices.md`](./scripts/03_indices.md) para crear los 4 índices y verificar el plan de ejecución con `explain("executionStats")`.
 4. **Consultas de negocio y CRUD:** Ejecuta el script [`scripts/04_consultas.md`](./scripts/04_consultas.md) para obtener las operaciones CRUD y los resultados de las 6 preguntas.
 5. **Agregación compleja:** Ejecuta el pipeline por género incluido en [`scripts/04_consultas.md`](./scripts/04_consultas.md).
 6. **Copias de seguridad y seguridad:** Consulta las sentencias y procedimientos en [`scripts/05_backup.md`](./scripts/05_backup.md).

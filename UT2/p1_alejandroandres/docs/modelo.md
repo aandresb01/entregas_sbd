@@ -4,12 +4,71 @@
 
 ```mermaid
 erDiagram
-    PELICULAS ||--o{ GENEROS : "tiene"
-    SERIES ||--o{ GENEROS : "tiene"
-    SERIES ||--o{ EPISODIOS : "contiene"
-    USUARIOS ||--o{ VALORACIONES : "hace"
-    PELICULAS ||--o{ VALORACIONES : "recibe"
-    SERIES ||--o{ VALORACIONES : "recibe"
+    PELICULAS {
+        objectId _id PK
+        string titulo
+        string descripcion
+        int anio
+        int duracion
+        array_string generos
+        double puntuacion_media
+        int num_valoraciones
+        boolean activo
+        date fecha_alta
+    }
+
+    SERIES {
+        objectId _id PK
+        string titulo
+        string descripcion
+        int anioInicio
+        int anioFin
+        int temporadas_totales
+        array_string generos
+        boolean activo
+    }
+
+    EPISODIOS {
+        objectId _id PK
+        objectId serieId FK
+        int temporada
+        int numero
+        string titulo
+        int duracion
+    }
+
+    USUARIOS {
+        objectId _id PK
+        string nombre
+        string email
+        string rol
+        boolean activo
+        date fecha_registro
+    }
+
+    VALORACIONES {
+        objectId _id PK
+        objectId usuarioId FK
+        objectId contenidoId FK
+        string tipoContenido
+        int puntuacion
+        string comentario
+        date fecha
+    }
+
+    GENEROS {
+        objectId _id PK
+        string nombre
+        string descripcion
+    }
+
+    SERIES ||--o{ EPISODIOS : "contiene (serieId)"
+    USUARIOS ||--o{ VALORACIONES : "escribe (usuarioId)"
+    PELICULAS ||--o{ VALORACIONES : "recibe (contenidoId)"
+    SERIES ||--o{ VALORACIONES : "recibe (contenidoId)"
+    EPISODIOS ||--o{ VALORACIONES : "recibe (contenidoId)"
+    PELICULAS }o--o{ GENEROS : "incrusta (array generos)"
+    SERIES }o--o{ GENEROS : "incrusta (array generos)"
 ```
 
 ---

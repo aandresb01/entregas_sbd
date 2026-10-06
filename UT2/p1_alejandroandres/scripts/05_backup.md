@@ -7,7 +7,7 @@
 Para hacer una copia de seguridad de la base de datos desde la consola:
 
 ```bash
-mongodump --db="multimedia" --out="./backup" --gzip
+mongodump --db="multimedia" --gzip --out="./backup"
 ```
 
 ### Restauración (`mongorestore`)
@@ -15,7 +15,7 @@ mongodump --db="multimedia" --out="./backup" --gzip
 Para restaurar la copia de seguridad si hemos borrado la base de datos:
 
 ```bash
-mongorestore --db="multimedia" --drop --gzip "./backup/multimedia"
+mongorestore --db="multimedia" --gzip --drop "./backup/multimedia"
 ```
 
 ---
@@ -52,14 +52,14 @@ db.createUser({
 ## 3. Seguridad y privacidad de los datos
 
 - **Anonimización:** No se usan datos personales reales. Los correos de los usuarios son ficticios (`ejemplo@example.com`).
-- **Seguridad en red:** En un entorno real se habilitaría conexión cifrada SSL/TLS.
+- **Seguridad en red:** En un entorno real se habilitaría conexión cifrada TLS.
 
 ---
 
 ## 4. Cuándo MongoDB no es la mejor opción
 
-1. **Sistemas bancarios o contables:** Para transacciones financieras complejas con muchas tablas relacionadas, una base de datos relacional tradicional (como PostgreSQL) es mejor opción por las restricciones de clave foránea estrictas.
-2. **Búsqueda de texto avanzada:** Si se necesita un motor de búsqueda muy avanzado con sinónimos o correctores ortográficos, es mejor usar un motor especializado como Elasticsearch.
+1. **Guardar los archivos de vídeo:** MongoDB es perfecto para guardar los datos de las películas y series, pero no es una buena idea guardar los archivos de vídeo reales dentro de la base de datos porque ocupan demasiado.
+2. **Edición de vídeos:** Si nuestra aplicación necesitara editar los vídeos o aplicarles filtros, MongoDB no nos serviría, ya que no está pensado para modificar ni procesar los vídeos internamente.
 
 ---
 
